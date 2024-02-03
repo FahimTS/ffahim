@@ -1,0 +1,25 @@
+:root{
+    --white-color: #fff;
+    --bg-color: #000;
+    --color: #444 !important;
+    --text-color: #333 !important;
+}
+
+.dark{
+    background-color: var(--bg-color);
+}
+.dark_theme{
+    color: var(--white-color);
+}
+.about_description h2{
+    color: var(--color) !important;
+}
+.about_description p{
+    color: var(--text-color);
+}
+ul.about_list{
+    color: var(--color);
+}
+.sec_title h2{
+    color: var(--white-color);
+}
